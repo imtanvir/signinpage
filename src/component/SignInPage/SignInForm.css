@@ -1,0 +1,77 @@
+.signIn-section {
+    background-color: rgb(13, 162, 231);
+    background-image: url('./img/back.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+.signIn-form-area {
+    background-image: url('./img/front.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90vw;
+    height: 90vh;
+}
+.left-side-text-area {
+    display: grid;
+    place-items: center;
+    padding: 4em 4em 4em 4em;
+    flex-grow: 6;
+}
+.signIn-form {
+    display: grid;
+    flex-grow: 6;
+    justify-content: left;
+    align-items: center;
+}
+.signIn-form-container {
+    padding: 3em;
+    background-color: #787b8f94;
+    backdrop-filter: blur(6px);
+    border-radius: 5px;
+}
+form input {
+    background-color: #b4b4b47a !important;
+    opacity: .7;
+    border: none !important;
+    border-radius: 3px !important;
+}
+.signIn-section .company-link {
+    margin-top: -3em;
+    margin-left: 2em;
+}
+
+/* custom media query */
+@media (max-width:767px){
+    .signIn-form {
+        align-items:flex-start ;
+    }.left-side-text-area {
+        padding: 4em 0em 4em 4em;
+    }
+}
+@media (max-width: 575px){
+
+    .signIn-form-area{
+        flex-direction: column !important;
+        align-items: center !important;
+    }.signIn-form-container {
+        padding: 1em !important;
+    }
+    .logtxt{
+        margin-bottom: .5em !important;
+        font-size: 1.5em;
+    }
+    .left-side-text-area{
+        padding: 4em 4em 0em 0em;
+    }
+    .signIn-form {
+        align-items:flex-start ;
+    }.signIn-section .company-link {
+        margin-top: -1.5em;
+    }
+}
+
+/* custom media query */
