@@ -24,8 +24,10 @@ const SignInForm = () => {
                                         <input type="password" className="form-control mb-2" id="password" />
                                         <div className='text-end'><a href="" className='text-decoration-none text-warning text-end mt-2'>forget password!</a></div>
                                     </div>
-                                <button type="submit" className="btn btn-warning fw-bold w-100 mt-3 mb-4">Let's Go</button>
-                                <span className='text-white'>Do you have a account? <a href='' className='text-decoration-none text-warning'>Sign Up</a> </span>
+                                <button type="submit" className="btn btn-warning fw-bold w-100 mt-3 mb-2 text-white">Let's Go</button>
+                            <span className='text-white'>Do you have a account? <a href='' className='text-decoration-none text-warning'>Sign Up</a> </span>
+                            <span className="text-center text-dark fw-bold divider d-block">OR</span>
+                            <div className="signinGoogle btn text-center bg-warning w-100 mt-2"><a className='text-decoration-none text-white fw-bold' href="">SIGN IN WITH GOOGLE</a></div>
                             </form>
                     </div>
                     </div>

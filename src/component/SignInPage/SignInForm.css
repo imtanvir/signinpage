@@ -47,9 +47,12 @@ form input {
 /* custom media query */
 @media (max-width:767px){
     .signIn-form {
-        align-items:flex-start ;
-    }.left-side-text-area {
-        padding: 4em 0em 4em 4em;
+        align-items:center ;
+    }.signIn-form-container {
+        padding: 5em;
+    }
+    .left-side-text-area {
+        display: none;
     }
 }
 @media (max-width: 575px){
@@ -58,17 +61,14 @@ form input {
         flex-direction: column !important;
         align-items: center !important;
     }.signIn-form-container {
-        padding: 1em !important;
+        padding: 3em !important;
     }
     .logtxt{
         margin-bottom: .5em !important;
         font-size: 1.5em;
     }
-    .left-side-text-area{
-        padding: 4em 4em 0em 0em;
-    }
     .signIn-form {
-        align-items:flex-start ;
+        /* align-items:flex-start ; */
     }.signIn-section .company-link {
         margin-top: -1.5em;
     }
