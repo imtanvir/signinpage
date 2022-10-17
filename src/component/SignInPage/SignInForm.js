@@ -4,14 +4,14 @@ const SignInForm = () => {
     return (
         <div className='signIn-section'>
                 <div className="signIn-form-area d-flex flex-md-row flex-sm-column align-items-sm-center">
-                    <div className="left-side-text-area text-white pb-sm-2 ps-sm-0">
+                    <div className="left-side-text-area text-white pb-sm-2 ps-sm-0 ms-3">
                         <div className="left-text">
                             <h2 className='fs-sm-3'>Whatever</h2>
                             <h2 className='fs-sm-3'>happens here <span>stays </span>here</h2>
                             <p>Please fill the form on the right site</p>
                         </div>
                     </div>
-                    <div className="signIn-form">
+                    <div className="signIn-form mx-3">
                         <div className="signIn-form-container w-100 w-sm-75">
                             <h1 className="logtxt text-white mt-3 mt-sm-1 mb-5 mb-sm-3">Login</h1>
                             <form>
